@@ -1,0 +1,104 @@
+.about {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornflowerblue;
+}
+
+.service {
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    color: cornflowerblue;
+}
+
+.contacts {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornflowerblue;
+}
+
+.emergency {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornflowerblue;
+}
+
+.result {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornflowerblue;
+}
+
+.RESULTBody {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornflowerblue;
+}
+
+.home,
+.about,
+.service,
+.contacts,
+.emergency,
+.result,
+.RESULTBody {
+    justify-content: center;
+    background: linear-gradient( to right, #ffffff 0%, #ffffff 50%, #95D1CC 50%, #95D1CC 100%);
+}
+
+.home,
+.about,
+.service,
+.contacts,
+.emergency,
+.RESULTBody p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about .about-txt {
+    color: black;
+}
+
+.mainAbout {
+    display: flex;
+}
+
+.Results h1 {
+    padding: 5%;
+}
+
+.about h1 {
+    padding: 5%;
+}
+
+.mainAbout h2 {
+    color: cadetblue;
+    padding: 5%;
+    margin: 5%;
+}
+
+.mainAbout img {
+    width: 20%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 820px) {
+    .about {
+        height: 100%;
+    }
+    .mainAbout {
+        display: block;
+    }
+    .mainAbout img {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .service {
+        height: 100%;
+    }
+}
