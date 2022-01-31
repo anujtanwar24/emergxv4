@@ -7,6 +7,7 @@ function Services() {
     return (
         <div className='service'>
             <h1 >Services</h1>
+            <h2>In Emergency</h2>
             <div className='cards'>
       
       <div className='cards__container'>

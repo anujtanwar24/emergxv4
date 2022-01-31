@@ -55,11 +55,7 @@ window.addEventListener('resize', showButton);
                  Services
              </Link>
              </li>
-             <li className='nav-link'> 
-             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-                 Contact
-             </Link>
-             </li>
+            
              <li className='nav-link'> 
              <Link to='/emergency' className='nav-links' onClick={closeMobileMenu}>
                  <h2>Emergency</h2>

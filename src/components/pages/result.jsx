@@ -4,8 +4,8 @@ import CardItem from '../cardItems';
 
 function Result() {
     return (
-          <div className='cards'>
-            <h1>Results</h1>
+      <div className='emergency'>
+      <h1> Result</h1>
             <div className='cards__container'>
               <div className='cards__wrapper'>
                
@@ -16,21 +16,21 @@ function Result() {
                     t='Dr Arora'
                     
                     label='DOCTOR'
-                    path=''
+                    path='/contact'
                   />
                   <CardItem
                     src='/photos/emergxdoc3.png'
                     text='WITHIN 0.5 KMs'
                     t='Dr Verma'
                     label='DOCTOR'
-                    path=''
+                    path='/contact'
                   />
                   <CardItem
                     src='/photos/emergxdoc3.png'
                     text='WITHIN 0.9 KMs'
                     t='Dr Malhotra'
                     label='DOCTOR'
-                    path=''
+                    path='/contact'
                   />
 
                  
@@ -43,7 +43,7 @@ function Result() {
                     text='WITHIN 1.4 KMs'
                     t='Government Hospital'
                     label='HOSPITAL'
-                    path=''
+                    path='/contact'
                   />
                   
                   <CardItem
@@ -51,14 +51,14 @@ function Result() {
                     text='WITHIN 1.4 KMs'
                     t='Dr Kumar'
                     label='DOCTOR'
-                    path=''
+                    path='/contact'
                   />
                   <CardItem
                     src='/photos/emergxdoc4.png'
                     text='WITHIN 1.6 KMs'
                     t='city Hospital'
                     label='HOSPITAL'
-                    path=''
+                    path='/contact'
                   />
                   
                  

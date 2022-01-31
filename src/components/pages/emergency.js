@@ -29,6 +29,9 @@ import CardItem from '../cardItems'
               label='SEIZURE'
               path='/result'
             />
+             </ul>
+           
+           <ul className='cards__items'>
              <CardItem
               src='/photos/emergxv42.jfif'
               text='Minor: First- and second-degree burns that cover less than 10% of the body are considered minor and rarely require hospitalization.Moderate: Second-degree burns that cover about 10% of the body are classified as moderate. Burns on the hands, feet, face or genitals can range from moderate to severe.Severe: Third-degree burns that cover more than 1% of the body are considered severe.'
@@ -69,25 +72,8 @@ import CardItem from '../cardItems'
               label='CHOCKING'
               path='/result'
             />
-              <CardItem
-              src='/photos/emergxv413.jfif'
-              text='Signs of an eye injury include: Pain and swelling: Your eye may hurt, especially when you try to open, close or move it. The eye may be sensitive to the touch. Swelling can affect the eyeball, eyelid or entire face, Bruising and redness: Any part of the eye may appear red or bruised, Vision changes: You may see floating black spots or flashes of light (floaters and flashes)'
-              label='EYE INJURY'
-              path='/result'
-            />
-            <CardItem
-              src='/photos/emergxv414.jfif'
-              text='The following symptoms may occur after a person has been unconscious: Amnesia for (not remembering) events before, during, and even after the period of unconsciousness, Confusion, Drowsiness, Headache, Inability to speak or move parts of the body (stroke symptoms), Lightheadedness, Loss of bowel or bladder control (incontinence), Rapid heartbeat (palpitations), Slow heartbeat'
-              label='UNCONCIOUSNESS'
-              path='/result'
-            />
-             <CardItem
-              src='/photos/emergxv6.jpg'
-              text='if your emergency is not listed above please click here'
-              label='OTHERS'
-              path='/result'
-            />
-              </ul>
+            
+            </ul>
            
           <ul className='cards__items'>
            
@@ -115,7 +101,26 @@ import CardItem from '../cardItems'
            
            
           </ul>
-          
+          <ul className='cards__items'>
+              <CardItem
+              src='/photos/emergxv413.jfif'
+              text='Signs of an eye injury include: Pain and swelling: Your eye may hurt, especially when you try to open, close or move it. The eye may be sensitive to the touch. Swelling can affect the eyeball, eyelid or entire face, Bruising and redness: Any part of the eye may appear red or bruised, Vision changes: You may see floating black spots or flashes of light (floaters and flashes)'
+              label='EYE INJURY'
+              path='/result'
+            />
+            <CardItem
+              src='/photos/emergxv414.jfif'
+              text='The following symptoms may occur after a person has been unconscious: Amnesia for (not remembering) events before, during, and even after the period of unconsciousness, Confusion, Drowsiness, Headache, Inability to speak or move parts of the body (stroke symptoms), Lightheadedness, Loss of bowel or bladder control (incontinence), Rapid heartbeat (palpitations), Slow heartbeat'
+              label='UNCONCIOUSNESS'
+              path='/result'
+            />
+             <CardItem
+              src='/photos/emergxv6.jpg'
+              text='if your emergency is not listed above please click here'
+              label='OTHERS'
+              path='/result'
+            />
+              </ul>
 
         </div>
       </div>

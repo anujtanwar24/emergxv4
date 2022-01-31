@@ -11,6 +11,8 @@ import Contact from './components/pages/contact';
 import Footer from './components/footer';
 import Emergency from './components/pages/emergency';
 import Result from './components/pages/result';
+import Sign from './components/pages/sign';
+
 
 
 function App() {
@@ -19,14 +21,15 @@ function App() {
       
       <Router>
       <Navbar />
-        <Routes>
+        <Routes  >
+        
           <Route exact path='/' element={<Home/>}/>
           <Route path='/about' element={ <About/> }/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/emergency' element={<Emergency/>}/>
           <Route path='/result' element={<Result/>}/>
-          
+          <Route path='/sign' element={<Sign/>}/>
         </Routes>
         <Footer/>
       </Router>

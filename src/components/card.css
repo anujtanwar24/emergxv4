@@ -1,5 +1,6 @@
 .cards {
     padding: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient( to right, #ffffff 0%, #ffffff 50%, #95D1CC 50%, #95D1CC 100%);
 }
 
@@ -23,6 +24,7 @@ h1 {
 
 .cards__items {
     margin-bottom: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .cards__item {

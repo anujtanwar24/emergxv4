@@ -1,10 +1,14 @@
 
 import React from 'react';
 import './footer.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+
+import { Link, useNavigate } from 'react-router-dom';
+
 
 function Footer() {
+
+  let navigate = useNavigate()
+
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -15,7 +19,8 @@ function Footer() {
         <div className='input-areas'>
           <form>
            
-            <Button buttonStyle='btn--outline'>Join</Button>
+           
+            <button onClick={()=>navigate("/sign")} className='btn--outline'>Join</button>
           </form>
         </div>
       </section>
@@ -23,7 +28,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/'>How it works</Link>
             
            
             <Link to='/'>Terms of Service</Link>
